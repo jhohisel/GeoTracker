@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015. Project Mayhem: Jacob Hohisel, Loralyn Solomon, Brian Plocki, Brandon Soto.
+  -->
+
+<resources>
+
+    <string-array name="security_questions">
+        <item>Your first pet\'s name</item>
+        <item>Your best friend\'s first name</item>
+        <item>City you were born in</item>
+        <item>Mother\'s maiden name</item>
+    </string-array>
+
+</resources>

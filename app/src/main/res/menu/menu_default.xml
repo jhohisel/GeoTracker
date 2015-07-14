@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright (c) 2015. Project Mayhem: Jacob Hohisel, Loralyn Solomon, Brian Plocki, Brandon Soto.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jacob.myapplication.RegistrationActivity">
+    <item android:id="@+id/action_back" android:title="@string/action_back"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

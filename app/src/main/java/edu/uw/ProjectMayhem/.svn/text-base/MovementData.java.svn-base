@@ -1,0 +1,72 @@
+package edu.uw.ProjectMayhem;
+/**
+ * Created by Brian on 4/29/2015.
+ */
+public class MovementData {
+
+    private double mLatitude;
+    private double mLongitude;
+    private double mSpeed;
+    private String mHeading;
+    private int mSourceID;
+    private String mTimeStamp;
+
+    public MovementData() {}
+
+    public MovementData(double latitude, double longitude, double speed, String heading, int sourceID, String timeStamp) {
+        mLatitude = latitude;
+        mLongitude = longitude;
+        mSpeed = speed;
+        mHeading = heading;
+        mSourceID = sourceID;
+        mTimeStamp = timeStamp;
+    }
+
+    public double getLatitude() {
+        return mLatitude;
+    }
+
+    public void setLatitude(double mLatitude) {
+        this.mLatitude = mLatitude;
+    }
+
+    public double getLongitude() {
+        return mLongitude;
+    }
+
+    public void setLongitude(double mLongitude) {
+        this.mLongitude = mLongitude;
+    }
+
+    public double getSpeed() {
+        return mSpeed;
+    }
+
+    public void setSpeed(double mSpeed) {
+        this.mSpeed = mSpeed;
+    }
+
+    public String getHeading() {
+        return mHeading;
+    }
+
+    public void setHeading(String mHeading) {
+        this.mHeading = mHeading;
+    }
+
+    public int getSourceID() {
+        return mSourceID;
+    }
+
+    public void setSourceID(int mSourceID) {
+        this.mSourceID = mSourceID;
+    }
+
+    public String getTimeStamp() {
+        return mTimeStamp;
+    }
+
+    public void setTimeStamp(String mTimeStamp) {
+        this.mTimeStamp = mTimeStamp;
+    }
+}
